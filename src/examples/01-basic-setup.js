@@ -11,7 +11,7 @@ class BasicSetup extends LitElement {
     // Return the template using the html template tag. lit-html will parse the template and
     // create the DOM elements
     return html`
-      <div>Hello world!</div>
+      <div>- I come from "01-basic-setup.js" file!</div>
     `;
   }
 }

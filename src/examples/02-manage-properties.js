@@ -24,6 +24,7 @@ class ManageProperties extends LitElement {
 
   render() {
     return html`
+      <div>- We come from "02-manage-properties.js" file!</div>
       <div>
         <!--
           Dynamic parts of your template are set through template string expressions.
@@ -32,15 +33,10 @@ class ManageProperties extends LitElement {
         -->
 
         <!-- Render a string or number directly -->
-        <div>
-          The message is: ${this.message}, count is: ${this.count}
-        </div>
+        <div>The message is: ${this.message}, count is: ${this.count}</div>
 
         <!-- Call a function and render the return value -->
-        <div>
-          The reversed message is: ${this.reverseMessage(this.message)}
-        </div>
-
+        <div>The reversed message is: ${this.reverseMessage(this.message)}</div>
       </div>
     `;
   }
